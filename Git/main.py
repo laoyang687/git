@@ -9,3 +9,6 @@ git pull 拉去代码
 git push 提交到远程仓库
 git checkout HEAD 
 git checkout branch_name 检查分支
+git init 初始化
+
+
