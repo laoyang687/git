@@ -8,9 +8,14 @@ git add main.py  /该文件提交到缓存区
 git commit -m /提交到本地仓库，可以一次提交所有文件
 git commit -m "功能已完成" /备注修改了哪些内容
 
-
-git log   查看过往记录
 git status 查看工作区状态
+git log   查看过往记录
+git diff main.py /查看修改前后的差别
+
+ssh-keygen -t rsa -C"6874302@qq.com" /创建密钥，一路回车，添加密钥到github，确保是你在推送
+
+
+
 git pull 拉去代码
 git push 提交到远程仓库
 git checkout HEAD 
